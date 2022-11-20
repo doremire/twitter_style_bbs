@@ -1,0 +1,2 @@
+# ルートパスで記述
+ErrorDocument 404 /err.html

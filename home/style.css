@@ -1,0 +1,252 @@
+html {
+  margin: -8px 0;
+}
+
+body {
+  display: flex;
+  /* margin: -8px */
+  /* max-width: 600px; */
+}
+
+.grovalNavigation {
+  background-color: #fff;
+  color: #fff;
+  flex: 1;
+  text-align: center
+}
+
+.localNavigation {
+  background-color: #fff;
+  color: #fff;
+  flex: 1;
+  margin: 0 auto 0 33px;
+}
+
+.localNavigation .dev {
+  margin: 0 16px;
+  width: 348px
+}
+
+@media screen and (max-width:1005px) {
+  .localNavigation {
+    display: none
+  }
+
+}
+
+@media screen and (min-width:1005px) {
+  .twitter__container .twitter__block-text .text {
+    /* margin: 5px 0; */
+    /* width: 495px */
+  }
+}
+
+.content {
+  flex: 2;
+  flex-direction: column;
+  justify-content: center
+}
+
+.post {
+  border-left: 1px solid #eff3f4;
+  border-right: 1px solid #eff3f4;
+  min-height: 6637px;
+  width: 100%;
+}
+
+.DivLink {
+  background-color: #fff;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative
+}
+
+.DivLink p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700
+}
+
+.DivLink:hover {
+  background-color: #f7f7f7
+}
+
+.DivLink .Link {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.DivLink0 {
+  background-color: #fff;
+  height: 100px;
+  padding: 0 16px;
+  position: relative
+}
+
+.DivLink0 p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700
+}
+
+.DivLink0 .Link {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+.spacing {
+  background-color: #eff3f4;
+  height: 1px;
+  margin: 4px auto;
+  width: 100%
+}
+
+.home {
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.text input {
+  border-style: none;
+  font-size: larger;
+  height: 24px;
+  /* width: 500px */
+  width: 100%;
+}
+
+.text input:focus {
+  outline: 0
+}
+
+button {
+  background: #1d9bf0;
+  border-radius: 9999px;
+  border-style: none;
+  color: #fff;
+  float: right;
+  font-size: 15px;
+  font-weight: 700;
+  height: 36px;
+  margin-top: 20px;
+  opacity: .5;
+  width: 124px
+}
+
+.but:hover {
+  background: #1a8cd8;
+  border-radius: 9999px;
+  border-style: none;
+  color: #fff;
+  float: right;
+  font-size: 15px;
+  font-weight: 700;
+  height: 36px;
+  margin-top: 20px;
+  opacity: .5;
+  width: 124px
+}
+
+.twitter__container .twitter__contents {
+  line-height: 135%;
+  position: relative
+}
+
+.twitter__container .twitter__contents.scroll {
+  height: 99px
+}
+
+.twitter__container .twitter__block {
+  border-bottom: 1px solid #eee;
+  display: block;
+  margin-bottom: 5px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%
+}
+
+.twitter__container .twitter__block:last-child {
+  border-bottom: 0 solid
+}
+
+.twitter__container .twitter__block figure {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 50px
+}
+
+.twitter__container .twitter__block figure img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px
+}
+
+.twitter__container .twitter__block-text {
+  margin: 0 0 0 60px;
+  padding-right: 10px;
+  position: relative
+}
+
+.twitter__container .twitter__block-text .name {
+  font-weight: 700
+}
+
+.twitter__container .twitter__block-text .name .name_reply {
+  color: #8a9aa4;
+  margin-left: 10px
+}
+
+.twitter__container .twitter__block-text .date {
+  color: #8a9aa4;
+  position: absolute;
+  right: 20px;
+  text-align: right;
+  top: 0
+}
+
+.twitter__container .twitter__block-text .text {
+  margin: 5px 0
+}
+
+.twitter__container .twitter__icon br {
+  display: none
+}
+
+.twitter__container .twitter__icon .twitter-bubble {
+  background: url(svg/twitter-bubble.svg) left no-repeat;
+  color: #8a9aa4;
+  display: block;
+  float: left;
+  height: 14px;
+  padding-left: 20px;
+  width: 20%
+}
+
+.twitter__container .twitter__icon .twitter-heart {
+  background: url(svg/twitter-heart.svg) left no-repeat;
+  color: #8a9aa4;
+  display: block;
+  float: left;
+  height: 14px;
+  padding-left: 20px;
+  width: 20%
+}
+
+.twitter__container .twitter__icon .twitter-loop {
+  background: url(svg/twitter-loop.svg) left no-repeat;
+  color: #8a9aa4;
+  display: block;
+  float: left;
+  height: 14px;
+  padding-left: 20px;
+  width: 20%
+}
