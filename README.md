@@ -10,13 +10,6 @@
   Twitter Likeな掲示板サイト
 </p>
 
-<!-- Badges -->
-<p align="center">
-  <a href="https://github.com/username/repoName/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/username/repoName?color=0088ff"></a>
-  <a href="https://github.com/username/repoName/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/username/repoName?color=0088ff"></a>
-  <a href="https://github.com/username/repoName/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/username/repoName?color=0088ff"></a>
-</p>
-
 <!-- Features -->
 ## 📦 Features
 
